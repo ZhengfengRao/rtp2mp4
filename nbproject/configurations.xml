@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="cmmb2rtp" root=".">
+      <df name="include">
+        <in>chapter.h</in>
+        <in>file.h</in>
+        <in>file_prop.h</in>
+        <in>general.h</in>
+        <in>isma.h</in>
+        <in>itmf_generic.h</in>
+        <in>itmf_tags.h</in>
+        <in>meta.h</in>
+        <in>mp4v2.h</in>
+        <in>platform.h</in>
+        <in>project.h</in>
+        <in>sample.h</in>
+        <in>streaming.h</in>
+        <in>track.h</in>
+        <in>track_prop.h</in>
+      </df>
+      <df name="mp4v2">
+        <df name="autoaux">
+        </df>
+        <df name="doc">
+          <df name="man">
+            <df name="man1">
+            </df>
+          </df>
+        </df>
+        <df name="include">
+          <df name="mp4v2">
+            <in>chapter.h</in>
+            <in>file.h</in>
+            <in>file_prop.h</in>
+            <in>general.h</in>
+            <in>isma.h</in>
+            <in>itmf_generic.h</in>
+            <in>itmf_tags.h</in>
+            <in>meta.h</in>
+            <in>mp4v2.h</in>
+            <in>platform.h</in>
+            <in>project.h</in>
+            <in>sample.h</in>
+            <in>streaming.h</in>
+            <in>track.h</in>
+            <in>track_prop.h</in>
+          </df>
+        </df>
+        <df name="libplatform">
+          <df name="impl.h.gch">
+          </df>
+          <df name="io">
+            <in>File.cpp</in>
+            <in>File.h</in>
+            <in>FileSystem.cpp</in>
+            <in>FileSystem.h</in>
+            <in>FileSystem_posix.cpp</in>
+            <in>FileSystem_win32.cpp</in>
+            <in>File_posix.cpp</in>
+            <in>File_win32.cpp</in>
+          </df>
+          <df name="number">
+            <in>random.h</in>
+            <in>random_posix.cpp</in>
+            <in>random_win32.cpp</in>
+          </df>
+          <df name="process">
+            <in>process.h</in>
+            <in>process_posix.cpp</in>
+            <in>process_win32.cpp</in>
+          </df>
+          <df name="prog">
+            <in>option.cpp</in>
+            <in>option.h</in>
+          </df>
+          <df name="sys">
+            <in>error.cpp</in>
+            <in>error.h</in>
+          </df>
+          <df name="time">
+            <in>time.cpp</in>
+            <in>time.h</in>
+            <in>time_posix.cpp</in>
+            <in>time_win32.cpp</in>
+          </df>
+          <in>config.h</in>
+          <in>endian.h</in>
+          <in>impl.h</in>
+          <in>platform.h</in>
+          <in>platform_base.h</in>
+          <in>platform_posix.h</in>
+          <in>platform_win32.h</in>
+          <in>warning.h</in>
+        </df>
+        <df name="libutil">
+          <df name="impl.h.gch">
+          </df>
+          <in>Database.cpp</in>
+          <in>Database.h</in>
+          <in>Timecode.cpp</in>
+          <in>Timecode.h</in>
+          <in>TrackModifier.cpp</in>
+          <in>TrackModifier.h</in>
+          <in>Utility.cpp</in>
+          <in>Utility.h</in>
+          <in>crc.cpp</in>
+          <in>crc.h</in>
+          <in>impl.h</in>
+          <in>other.cpp</in>
+          <in>other.h</in>
+          <in>util.h</in>
+        </df>
+        <df name="project">
+        </df>
+        <df name="src">
+          <df name="bmff">
+            <in>bmff.h</in>
+            <in>impl.h</in>
+            <in>typebmff.cpp</in>
+            <in>typebmff.h</in>
+          </df>
+          <df name="impl.h.gch">
+          </df>
+          <df name="itmf">
+            <in>CoverArtBox.cpp</in>
+            <in>CoverArtBox.h</in>
+            <in>Tags.cpp</in>
+            <in>Tags.h</in>
+            <in>generic.cpp</in>
+            <in>generic.h</in>
+            <in>impl.h</in>
+            <in>itmf.h</in>
+            <in>type.cpp</in>
+            <in>type.h</in>
+          </df>
+          <df name="qtff">
+            <in>ColorParameterBox.cpp</in>
+            <in>ColorParameterBox.h</in>
+            <in>PictureAspectRatioBox.cpp</in>
+            <in>PictureAspectRatioBox.h</in>
+            <in>coding.cpp</in>
+            <in>coding.h</in>
+            <in>impl.h</in>
+            <in>qtff.h</in>
+          </df>
+          <in>3gp.cpp</in>
+          <in>atom_ac3.cpp</in>
+          <in>atom_amr.cpp</in>
+          <in>atom_avc1.cpp</in>
+          <in>atom_avcC.cpp</in>
+          <in>atom_chpl.cpp</in>
+          <in>atom_colr.cpp</in>
+          <in>atom_d263.cpp</in>
+          <in>atom_dac3.cpp</in>
+          <in>atom_damr.cpp</in>
+          <in>atom_dref.cpp</in>
+          <in>atom_elst.cpp</in>
+          <in>atom_enca.cpp</in>
+          <in>atom_encv.cpp</in>
+          <in>atom_free.cpp</in>
+          <in>atom_ftab.cpp</in>
+          <in>atom_ftyp.cpp</in>
+          <in>atom_gmin.cpp</in>
+          <in>atom_hdlr.cpp</in>
+          <in>atom_hinf.cpp</in>
+          <in>atom_hnti.cpp</in>
+          <in>atom_href.cpp</in>
+          <in>atom_mdat.cpp</in>
+          <in>atom_mdhd.cpp</in>
+          <in>atom_meta.cpp</in>
+          <in>atom_mp4s.cpp</in>
+          <in>atom_mp4v.cpp</in>
+          <in>atom_mvhd.cpp</in>
+          <in>atom_nmhd.cpp</in>
+          <in>atom_ohdr.cpp</in>
+          <in>atom_pasp.cpp</in>
+          <in>atom_root.cpp</in>
+          <in>atom_rtp.cpp</in>
+          <in>atom_s263.cpp</in>
+          <in>atom_sdp.cpp</in>
+          <in>atom_sdtp.cpp</in>
+          <in>atom_smi.cpp</in>
+          <in>atom_sound.cpp</in>
+          <in>atom_standard.cpp</in>
+          <in>atom_stbl.cpp</in>
+          <in>atom_stdp.cpp</in>
+          <in>atom_stsc.cpp</in>
+          <in>atom_stsd.cpp</in>
+          <in>atom_stsz.cpp</in>
+          <in>atom_stz2.cpp</in>
+          <in>atom_text.cpp</in>
+          <in>atom_tfhd.cpp</in>
+          <in>atom_tkhd.cpp</in>
+          <in>atom_treftype.cpp</in>
+          <in>atom_trun.cpp</in>
+          <in>atom_tx3g.cpp</in>
+          <in>atom_udta.cpp</in>
+          <in>atom_url.cpp</in>
+          <in>atom_urn.cpp</in>
+          <in>atom_uuid.cpp</in>
+          <in>atom_video.cpp</in>
+          <in>atom_vmhd.cpp</in>
+          <in>atoms.h</in>
+          <in>cmeta.cpp</in>
+          <in>descriptors.cpp</in>
+          <in>descriptors.h</in>
+          <in>enum.h</in>
+          <in>enum.tcc</in>
+          <in>exception.cpp</in>
+          <in>exception.h</in>
+          <in>impl.h</in>
+          <in>isma.cpp</in>
+          <in>mp4.cpp</in>
+          <in>mp4array.h</in>
+          <in>mp4atom.cpp</in>
+          <in>mp4atom.h</in>
+          <in>mp4container.cpp</in>
+          <in>mp4container.h</in>
+          <in>mp4descriptor.cpp</in>
+          <in>mp4descriptor.h</in>
+          <in>mp4error.h</in>
+          <in>mp4file.cpp</in>
+          <in>mp4file.h</in>
+          <in>mp4file_io.cpp</in>
+          <in>mp4info.cpp</in>
+          <in>mp4meta.cpp</in>
+          <in>mp4property.cpp</in>
+          <in>mp4property.h</in>
+          <in>mp4track.cpp</in>
+          <in>mp4track.h</in>
+          <in>mp4util.cpp</in>
+          <in>mp4util.h</in>
+          <in>ocidescriptors.cpp</in>
+          <in>ocidescriptors.h</in>
+          <in>odcommands.cpp</in>
+          <in>odcommands.h</in>
+          <in>qosqualifiers.cpp</in>
+          <in>qosqualifiers.h</in>
+          <in>rtphint.cpp</in>
+          <in>rtphint.h</in>
+          <in>src.h</in>
+          <in>text.cpp</in>
+          <in>text.h</in>
+          <in>util.h</in>
+        </df>
+        <df name="util">
+          <df name="impl.h.gch">
+          </df>
+          <in>impl.h</in>
+          <in>mp4art.cpp</in>
+          <in>mp4chaps.cpp</in>
+          <in>mp4extract.cpp</in>
+          <in>mp4file.cpp</in>
+          <in>mp4info.cpp</in>
+          <in>mp4subtitle.cpp</in>
+          <in>mp4tags.cpp</in>
+          <in>mp4track.cpp</in>
+          <in>mp4trackdump.cpp</in>
+        </df>
+        <df name="vstudio9.0">
+          <df name="include">
+            <df name="mp4v2">
+              <in>project.h</in>
+            </df>
+          </df>
+          <df name="libmp4v2">
+          </df>
+          <df name="mp4art">
+          </df>
+          <df name="mp4chaps">
+          </df>
+          <df name="mp4extract">
+          </df>
+          <df name="mp4file">
+          </df>
+          <df name="mp4info">
+          </df>
+          <df name="mp4tags">
+          </df>
+          <df name="mp4track">
+          </df>
+          <df name="mp4trackdump">
+          </df>
+        </df>
+      </df>
+      <in>common.h</in>
+      <in>main.c</in>
+      <in>rtp.c</in>
+      <in>rtp.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>cmmb2rtp</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="common.h" ex="true" tool="3" flavor="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

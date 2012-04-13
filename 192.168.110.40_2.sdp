@@ -1,0 +1,33 @@
+v=0
+o=- 3336932810 174070 IN IP4 192.168.110.125
+s=Channel 1
+c=IN IP4 235.0.1.192
+t=0 0
+m=video 57356 RTP/AVP 96
+b=AS:395
+b=TIAS:376064
+b=RS:3000
+b=RR:0
+a=rtpmap:96 H264/90000
+a=fmtp:96 profile-level-id=42E00D; sprop-parameter-sets=Z0LgDZZSAoP0kAg=,aM44gA==; packetization-mode=1
+a=cliprect:0,0,240,320
+a=framerate:25.
+a=mpeg4-esid:201
+a=X-initpredecbufperiod:90072
+a=X-predecbufsize:49408
+a=X-initpostdecbufperiod:0
+a=X-decbyterate:49368
+a=x-envivio-verid:00023014
+a=maxprate:59.
+a=control:trackID=1
+m=audio 57356 RTP/AVP 97
+b=AS:35
+b=TIAS:32515
+b=RS:430
+b=RR:0
+a=rtpmap:97 MP4A-LATM/48000/2
+a=fmtp:97 profile-level-id=15; object=2; cpresent=0; config=430026203FC0; SBR-enabled=1
+a=mpeg4-esid:101
+a=x-envivio-verid:00023014
+a=maxprate:5.8594
+
